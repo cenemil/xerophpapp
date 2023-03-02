@@ -1,0 +1,310 @@
+[29-Apr-2022 09:01:09 UTC] PHP Warning:  require_once(storage.php): failed to open stream: No such file or directory in /home/cm4bgbq/public_html/xero_php_app/authorization.php on line 4
+[29-Apr-2022 09:01:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'storage.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cm4bgbq/public_html/xero_php_app/authorization.php on line 4
+[29-Apr-2022 09:01:43 UTC] PHP Warning:  require_once(storage.php): failed to open stream: No such file or directory in /home/cm4bgbq/public_html/xero_php_app/authorization.php on line 4
+[29-Apr-2022 09:01:43 UTC] PHP Fatal error:  require_once(): Failed opening required 'storage.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cm4bgbq/public_html/xero_php_app/authorization.php on line 4
+[29-Apr-2022 09:02:24 UTC] PHP Warning:  require_once(storage.php): failed to open stream: No such file or directory in /home/cm4bgbq/public_html/xero_php_app/authorization.php on line 4
+[29-Apr-2022 09:02:24 UTC] PHP Fatal error:  require_once(): Failed opening required 'storage.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cm4bgbq/public_html/xero_php_app/authorization.php on line 4
+[29-Apr-2022 09:04:33 UTC] PHP Warning:  require_once(storage.php): failed to open stream: No such file or directory in /home/cm4bgbq/public_html/xero_php_app/authorization.php on line 4
+[29-Apr-2022 09:04:33 UTC] PHP Fatal error:  require_once(): Failed opening required 'storage.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cm4bgbq/public_html/xero_php_app/authorization.php on line 4
+[29-Apr-2022 09:05:42 UTC] PHP Warning:  require_once(storage.php): failed to open stream: No such file or directory in /home/cm4bgbq/public_html/xero_php_app/authorization.php on line 4
+[29-Apr-2022 09:05:42 UTC] PHP Fatal error:  require_once(): Failed opening required 'storage.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cm4bgbq/public_html/xero_php_app/authorization.php on line 4
+[29-Apr-2022 12:04:16 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(35): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[29-Apr-2022 12:33:34 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(35): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[29-Apr-2022 13:05:31 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[29-Apr-2022 13:33:08 UTC] PHP Warning:  require_once(/home/cm4bgbq/public_html/xero_php_appstorage.php): failed to open stream: No such file or directory in /home/cm4bgbq/public_html/xero_php_app/authorization.php on line 4
+[29-Apr-2022 13:33:08 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/cm4bgbq/public_html/xero_php_appstorage.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cm4bgbq/public_html/xero_php_app/authorization.php on line 4
+[29-Apr-2022 13:58:33 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[02-Jun-2022 04:12:43 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ConnectException: cURL error 28: Failed to connect to identity.xero.com port 443: Connection timed out (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://identity.xero.com/connect/token in /home/cm4bgbq/public_html/xero_php_app/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:210
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), O in /home/cm4bgbq/public_html/xero_php_app/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 210
+[13-Jun-2022 17:25:23 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[13-Jun-2022 17:27:08 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[13-Jun-2022 17:39:54 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[13-Jun-2022 17:41:31 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[13-Jun-2022 17:49:07 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[13-Jun-2022 17:52:35 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[13-Jun-2022 17:54:19 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 01:51:15 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 01:57:16 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 01:58:18 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 02:23:36 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 02:24:21 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 02:35:28 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 02:36:07 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 02:39:27 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 02:47:03 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 02:48:40 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 04:10:53 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 04:15:51 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 04:21:40 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 04:21:45 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 04:22:06 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 04:22:40 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Jun-2022 04:33:57 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[14-Jun-2022 04:34:48 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[16-Jun-2022 04:01:36 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[16-Jun-2022 05:51:45 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[16-Jun-2022 05:52:06 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[16-Jun-2022 05:53:29 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[16-Jun-2022 05:54:53 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[22-Jun-2022 23:42:48 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[23-Jun-2022 01:38:37 UTC] PHP Warning:  include(/home/cm4bgbq/public_html/wp-content/themes/jtheme-jello-child-master/inc/posttypes.php): failed to open stream: No such file or directory in /home/cm4bgbq/public_html/wp-content/themes/jtheme-jello-child-master/functions.php on line 38
+[23-Jun-2022 01:38:37 UTC] PHP Warning:  include(): Failed opening '/home/cm4bgbq/public_html/wp-content/themes/jtheme-jello-child-master/inc/posttypes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cm4bgbq/public_html/wp-content/themes/jtheme-jello-child-master/functions.php on line 38
+[23-Jun-2022 01:40:42 UTC] PHP Warning:  include(/home/cm4bgbq/public_html/wp-content/themes/jtheme-jello-child-master/inc/posttypes.php): failed to open stream: No such file or directory in /home/cm4bgbq/public_html/wp-content/themes/jtheme-jello-child-master/functions.php on line 38
+[23-Jun-2022 01:40:42 UTC] PHP Warning:  include(): Failed opening '/home/cm4bgbq/public_html/wp-content/themes/jtheme-jello-child-master/inc/posttypes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cm4bgbq/public_html/wp-content/themes/jtheme-jello-child-master/functions.php on line 38
+[23-Jun-2022 01:40:42 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[23-Jun-2022 01:42:57 UTC] PHP Warning:  include(/home/cm4bgbq/public_html/wp-content/themes/jtheme-jello-child-master/inc/posttypes.php): failed to open stream: No such file or directory in /home/cm4bgbq/public_html/wp-content/themes/jtheme-jello-child-master/functions.php on line 38
+[23-Jun-2022 01:42:57 UTC] PHP Warning:  include(): Failed opening '/home/cm4bgbq/public_html/wp-content/themes/jtheme-jello-child-master/inc/posttypes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cm4bgbq/public_html/wp-content/themes/jtheme-jello-child-master/functions.php on line 38
+[23-Jun-2022 01:58:06 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[23-Jun-2022 02:00:14 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[23-Jun-2022 02:00:56 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[23-Jun-2022 02:02:22 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[23-Jun-2022 02:02:25 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[23-Jun-2022 02:02:52 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[23-Jun-2022 02:03:28 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[23-Jun-2022 02:03:29 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[23-Jun-2022 02:19:02 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[23-Jun-2022 02:19:20 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[23-Jun-2022 02:21:06 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[23-Jun-2022 02:43:04 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[23-Jun-2022 02:44:36 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[23-Jun-2022 02:53:34 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[28-Jun-2022 04:41:45 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[28-Jun-2022 04:43:37 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[28-Jun-2022 04:52:05 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[28-Jun-2022 04:59:20 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[28-Jun-2022 04:59:44 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[28-Jun-2022 05:32:48 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[28-Jun-2022 07:22:11 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[29-Jun-2022 07:44:20 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[04-Jul-2022 03:49:33 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[04-Jul-2022 03:54:10 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[04-Jul-2022 04:10:27 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[04-Jul-2022 05:11:44 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[04-Jul-2022 05:12:50 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[05-Jul-2022 04:52:18 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[25-Jul-2022 00:07:05 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[25-Jul-2022 00:07:27 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[25-Jul-2022 00:09:23 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[15-Sep-2022 05:13:31 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[14-Nov-2022 00:03:11 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Nov-2022 00:03:11 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Nov-2022 00:05:12 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[14-Nov-2022 00:05:44 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[22-Nov-2022 11:29:50 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[24-Nov-2022 16:42:24 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[17-Dec-2022 12:29:40 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
+[06-Jan-2023 02:29:12 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[09-Jan-2023 01:37:24 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[09-Jan-2023 01:37:27 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[09-Jan-2023 01:37:47 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[09-Jan-2023 01:38:17 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[09-Jan-2023 01:55:28 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[09-Jan-2023 01:58:39 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[09-Jan-2023 02:04:39 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[09-Jan-2023 02:15:50 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[09-Jan-2023 02:33:42 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[09-Jan-2023 02:50:44 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[09-Jan-2023 03:07:35 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[10-Jan-2023 05:08:12 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[19-Jan-2023 00:38:50 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[22-Jan-2023 06:10:11 UTC] PHP Fatal error:  Uncaught BadMethodCallException: Required parameter not passed: "refresh_token" in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php:35
+Stack trace:
+#0 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php(53): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameter('refresh_token', Array)
+#1 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Grant/AbstractGrant.php(76): League\OAuth2\Client\Grant\AbstractGrant->checkRequiredParameters(Array, Array)
+#2 /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Provider/AbstractProvider.php(535): League\OAuth2\Client\Grant\AbstractGrant->prepareRequestParameters(Array, Array)
+#3 /home/cm4bgbq/public_html/xero_php_app/get.php(41): League\OAuth2\Client\Provider\AbstractProvider->getAccessToken(Object(League\OAuth2\Client\Grant\RefreshToken), Array)
+#4 {main}
+  thrown in /home/cm4bgbq/public_html/xero_php_app/vendor/league/oauth2-client/src/Tool/RequiredParameterTrait.php on line 35
+[24-Jan-2023 04:46:01 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cm4bgbq/public_html/xero_php_app/authorization_signup.php on line 12
